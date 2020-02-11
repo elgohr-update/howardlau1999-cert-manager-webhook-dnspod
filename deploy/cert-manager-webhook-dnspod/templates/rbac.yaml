@@ -103,8 +103,6 @@ rules:
   - ""
   resources:
   - secrets
-  resourceNames:
-  - {{ include "cert-manager-webhook-dnspod.fullname" . }}-secret
   verbs:
   - get
   - watch
