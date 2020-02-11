@@ -1,4 +1,4 @@
-IMAGE_NAME := "qqshfox/cert-manager-webhook-dnspod"
+IMAGE_NAME := "howardlau1999/cert-manager-webhook-dnspod"
 IMAGE_TAG := "latest"
 
 OUT := $(shell pwd)/_out
