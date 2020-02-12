@@ -19,3 +19,4 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
         cache: ${{ github.event_name != 'schedule' }}
+        tags: 0.2.0
